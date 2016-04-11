@@ -42,7 +42,11 @@ platform/win32/Profile
 platform/win32/Release
 platform/win32/ReleaseOpenssl
 platform/win32/Memento
+platform/win32/Backup
 platform/win32/x64
+*.suo
+*.exe
+*.obj
 
 platform/android/*/obj
 platform/android/*/bin
