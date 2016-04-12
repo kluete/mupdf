@@ -4,10 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mupdf", "mupdf.vcxproj", "{E74F29F0-FA43-4ADC-B92C-6AFA08E4A417}"
+	ProjectSection(ProjectDependencies) = postProject
+		{52DCAB29-C8EE-4422-954C-29AFA6B33E22} = {52DCAB29-C8EE-4422-954C-29AFA6B33E22}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libthirdparty", "libthirdparty.vcxproj", "{5EDCF4FD-0291-4FB9-8D96-D58957CA5E3C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libmupdf", "libmupdf.vcxproj", "{5F615F91-DFF8-4F05-BF48-6222B7D86519}"
+	ProjectSection(ProjectDependencies) = postProject
+		{52DCAB29-C8EE-4422-954C-29AFA6B33E22} = {52DCAB29-C8EE-4422-954C-29AFA6B33E22}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mudraw", "mudraw.vcxproj", "{0B51171B-B10E-4EAC-8FFA-19226A1828A3}"
 EndProject
@@ -157,8 +163,8 @@ Global
 		{A5053AA7-02E5-4903-B596-04F17AEB1526}.Memento|x64.Build.0 = Memento|Win32
 		{A5053AA7-02E5-4903-B596-04F17AEB1526}.Release|Win32.ActiveCfg = Release|Win32
 		{A5053AA7-02E5-4903-B596-04F17AEB1526}.Release|Win32.Build.0 = Release|Win32
-		{A5053AA7-02E5-4903-B596-04F17AEB1526}.Release|x64.ActiveCfg = Release|Win32
-		{A5053AA7-02E5-4903-B596-04F17AEB1526}.Release|x64.Build.0 = Release|Win32
+		{A5053AA7-02E5-4903-B596-04F17AEB1526}.Release|x64.ActiveCfg = Release|x64
+		{A5053AA7-02E5-4903-B596-04F17AEB1526}.Release|x64.Build.0 = Release|x64
 		{A5053AA7-02E5-4903-B596-04F17AEB1526}.ReleaseOpenssl|Win32.ActiveCfg = Release|Win32
 		{A5053AA7-02E5-4903-B596-04F17AEB1526}.ReleaseOpenssl|Win32.Build.0 = Release|Win32
 		{A5053AA7-02E5-4903-B596-04F17AEB1526}.ReleaseOpenssl|x64.ActiveCfg = Release|Win32
@@ -274,7 +280,8 @@ Global
 		{05A1CA5B-9807-4B3A-9954-EFAB8ADE7757}.Memento|x64.ActiveCfg = Release|Win32
 		{05A1CA5B-9807-4B3A-9954-EFAB8ADE7757}.Release|Win32.ActiveCfg = Release|Win32
 		{05A1CA5B-9807-4B3A-9954-EFAB8ADE7757}.Release|Win32.Build.0 = Release|Win32
-		{05A1CA5B-9807-4B3A-9954-EFAB8ADE7757}.Release|x64.ActiveCfg = Release|Win32
+		{05A1CA5B-9807-4B3A-9954-EFAB8ADE7757}.Release|x64.ActiveCfg = Release|x64
+		{05A1CA5B-9807-4B3A-9954-EFAB8ADE7757}.Release|x64.Build.0 = Release|x64
 		{05A1CA5B-9807-4B3A-9954-EFAB8ADE7757}.ReleaseOpenssl|Win32.ActiveCfg = Release|Win32
 		{05A1CA5B-9807-4B3A-9954-EFAB8ADE7757}.ReleaseOpenssl|Win32.Build.0 = Release|Win32
 		{05A1CA5B-9807-4B3A-9954-EFAB8ADE7757}.ReleaseOpenssl|x64.ActiveCfg = Release|Win32
@@ -290,7 +297,8 @@ Global
 		{52DCAB29-C8EE-4422-954C-29AFA6B33E22}.Memento|x64.ActiveCfg = Release|Win32
 		{52DCAB29-C8EE-4422-954C-29AFA6B33E22}.Release|Win32.ActiveCfg = Release|Win32
 		{52DCAB29-C8EE-4422-954C-29AFA6B33E22}.Release|Win32.Build.0 = Release|Win32
-		{52DCAB29-C8EE-4422-954C-29AFA6B33E22}.Release|x64.ActiveCfg = Release|Win32
+		{52DCAB29-C8EE-4422-954C-29AFA6B33E22}.Release|x64.ActiveCfg = Release|x64
+		{52DCAB29-C8EE-4422-954C-29AFA6B33E22}.Release|x64.Build.0 = Release|x64
 		{52DCAB29-C8EE-4422-954C-29AFA6B33E22}.ReleaseOpenssl|Win32.ActiveCfg = Release|Win32
 		{52DCAB29-C8EE-4422-954C-29AFA6B33E22}.ReleaseOpenssl|Win32.Build.0 = Release|Win32
 		{52DCAB29-C8EE-4422-954C-29AFA6B33E22}.ReleaseOpenssl|x64.ActiveCfg = Release|Win32
